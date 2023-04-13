@@ -1,5 +1,5 @@
 # Build: sudo docker build -t apache-web .
-# Run: sudo docker run -p 80:80 -d apache-web
+# Run: sudo docker run -p 80:80 -d --name server apache-web
 # Usamos una imagen de Apache
 FROM httpd:2.4
 
